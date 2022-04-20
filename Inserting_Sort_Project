@@ -1,0 +1,29 @@
+
+[22,27,16,2,18,6] -> Insertion Sort
+
+1) Write the steps of the given array according to the sort type.
+2) Write Big-O notition.
+3) Time Complexity: Average case :The element we are looking for is in the MIDDLE.
+                    Worst case: The element we are looking for is in the END.
+                    Best case: The element we are looking for is in the START.
+4) What case does the number 18 fall into after the array is sorted? Write.
+
+
+a1) [2,27,16,22,18,6]   22 <-> 2   -> 
+    [2,6,16,22,18,27]   27 <-> 6   -> 
+    [2,6,16,22,18,27]   16 Stable  -> 
+    [2,6,16,18,22,27]   22 <-> 18  -> 
+    [2,6,16,18,22,27]   22 Stable
+    
+a2) O(n^2)
+
+a4) By defination case of 18 is average case
+
+
+[7,3,5,8,2,9,4,15,6] Write the first 4 stages of the array.
+
+      [7,3,5,8,2,9,4,15,6]  ->
+1)    [2,3,5,8,7,9,4,15,6]  ->
+2)    [2,3,4,8,7,9,5,15,6]  ->
+3)    [2,3,4,5,7,9,8,15,6]  ->
+4)    [2,3,4,5,6,9,8,15,7]
